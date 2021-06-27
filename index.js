@@ -6,15 +6,10 @@ const numArray = [2, 5, 17, 0, 9, -3];
 
 
 
-
-
-
-
 function findMinMax(numArray) {
     const findMax = Math.max(...numArray);
     const findMin = Math.min(...numArray);
-    `The Largest Number: ${findMax}`;
-    `The Smallest Number: ${findMin}`;
+   return `The Largest Number: ${findMax}, The Smallest Number: ${findMin}`;
 }
 
 console.log(findMinMax(numArray));
