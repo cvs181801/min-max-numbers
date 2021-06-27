@@ -1,7 +1,7 @@
 
 //grab the elements 
 
-const randomNumberSet = document.getElementById("randomNumbers");
+const randomNumberSet = document.querySelectorAll("randomNumbers");
 const goButton = document.getElementById("go-btn");
 const parentDiv = document.getElementById("resultDiv");
 const childDiv = document.createElement("p");
