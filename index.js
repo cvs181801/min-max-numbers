@@ -3,7 +3,7 @@
 
 //const randomNumberSet = document.getElementById("randomNumbers");
 const goButton = document.getElementById("go-btn");
-const parentDiv = getDocumentById("resultDiv");
+const parentDiv = document.getElementById("resultDiv");
 //const childDiv = document.createElement("p");
 
 
