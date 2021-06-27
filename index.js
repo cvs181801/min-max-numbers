@@ -10,7 +10,7 @@ function findMinMax(numArray) {
     
     const findMax = Math.max(...numArray);
     const findMin = Math.min(...numArray);
-    if (NaN) {
+    if (findMax || findMin === NaN) {
         return `Oops, try it using only numbers instead!`;
     }
     return `The Largest Number: ${findMax}, The Smallest Number: ${findMin}`;
