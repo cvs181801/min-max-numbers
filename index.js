@@ -1,17 +1,15 @@
 
 //grab the elements 
 
-//const randomNumberSet = document.getElementById("randomNumbers");
+const randomNumberSet = document.getElementById("randomNumbers");
 const goButton = document.getElementById("go-btn");
 const parentDiv = document.getElementById("resultDiv");
-//const childDiv = document.createElement("p");
+const childDiv = document.createElement("p");
 
 
 //create a way to find the maximum and minimum numbers in any number set.
-randomNumberSet = [4, 8, 9, 2, -10];
+//randomNumberSet = [4, 8, 9, 2, -10];
 let numArray = [];
-
-
 
 function findMinMax(randomNumberSet) {
     numArray = [...randomNumberSet];
@@ -19,12 +17,20 @@ function findMinMax(randomNumberSet) {
     const findMin = Math.min(...numArray);
     console.log(findMax, findMin);
     if (Number.isNaN(findMax)) {
-        return `Oops, try it using only numbers instead!`;
+        childDiv.innerHTML = "";
+        childDiv.innerHTML = `Oops, try it using only numbers instead!`;
+        parentDiv.append(childDiv);
     } else {
-        //const childDiv = document.createElement("p");
-        return `The Largest Number: ${findMax}, The Smallest Number: ${findMin}`;
+        childDiv.innerHTML = "";
+        childDiv.innerHTML = `The Largest Number: ${findMax}, The Smallest Number: ${findMin}`;
+        parentDiv.append(childDiv);
     }
 }
 
-console.log(findMinMax(randomNumberSet));
+//console.log(findMinMax(randomNumberSet.value));
+
+goButton.addEventListener('click', function(e) {
+    e.preventDefault();
+    return findMinMax(randomNumberSet.value);
+} )
 
