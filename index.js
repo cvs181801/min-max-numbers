@@ -2,7 +2,7 @@
 
 //create a way to find the maximum and minimum numbers in any number set.
 
-const numArray = [2, 5, 7, 0, 9, 3];
+const numArray = [2, 5, 17, 0, 9, -3];
 
 const findMax = Math.max(...numArray);
 
