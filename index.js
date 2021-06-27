@@ -7,3 +7,7 @@ const numArray = [2, 5, 7, 0, 9, 3];
 const findMax = Math.max(...numArray);
 
 console.log(findMax);
+
+const findMin = Math.min(...numArray);
+
+console.log(findMin);
