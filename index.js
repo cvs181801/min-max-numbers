@@ -3,7 +3,7 @@
 
 const randomNumberSet = document.querySelectorAll("randomNumbers");
 
-console.log(randomNumberSet);
+//console.log(randomNumberSet);
  const goButton = document.getElementById("go-btn");
 // const parentDiv = document.getElementById("resultDiv");
 // const childDiv = document.createElement("p");
@@ -13,8 +13,8 @@ console.log(randomNumberSet);
  let numArray = [];
 
  function findMinMax(randomNumberSet) {
-     const newArray = Array.from(randomNumberSet);
-     numArray = [...newArray];
+     //const newArray = Array.from(randomNumberSet);
+     numArray = [...randomNumberSet];
 //     const findMax = Math.max(...numArray);
 //     const findMin = Math.min(...numArray);
      console.log(numArray);
