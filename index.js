@@ -14,8 +14,8 @@ let randomNumberSet = document.querySelectorAll("randomNumbers");
 
  function findMinMax(randomNumberSet) {
     randomNumberSet = document.querySelectorAll("randomNumbers");
-     //const newArray = Array.from(randomNumberSet);
-     numArray = [...randomNumberSet];
+     const newArray = Array.from(randomNumberSet);
+     numArray = [...newArray];
 //     const findMax = Math.max(...numArray);
 //     const findMin = Math.min(...numArray);
      console.log(numArray);
