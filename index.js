@@ -1,7 +1,7 @@
 
 //grab the elements 
 
-const randomNumberSet = document.getElementsByClassName("randomNumbers");
+const randomNumberSet = document.querySelectorAll("randomNumbers");
 
 console.log(randomNumberSet);
  const goButton = document.getElementById("go-btn");
@@ -13,7 +13,8 @@ console.log(randomNumberSet);
  let numArray = [];
 
  function findMinMax(randomNumberSet) {
-     numArray = [...randomNumberSet];
+     const newArray = Array.from(randomNumberSet)
+     numArray = [...newArray];
 //     const findMax = Math.max(...numArray);
 //     const findMin = Math.min(...numArray);
      console.log(numArray);
