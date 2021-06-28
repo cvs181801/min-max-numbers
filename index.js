@@ -12,9 +12,10 @@ const childDiv = document.createElement("p");
 
  let newArray = [];
 
- function findMinMax(numbers) {
-     newArray = Array.from(numbers);
-    //newArray = [...numbers];
+ function findMinMax(randomNumberSet) {
+    randomNumberSet = document.querySelectorAll("randomNumbers");
+     newArray = Array.from(randomNumberSet);
+    //newArray = [...randomNumberSet];
       const findMax = Math.max(...newArray);
       const findMin = Math.min(...newArray);
         //console.log(findMax);
