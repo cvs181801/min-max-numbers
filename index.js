@@ -2,7 +2,8 @@
 //grab the elements 
 
 let randomNumberSet = document.querySelectorAll("randomNumbers");
-//console.log(randomNumberSet);
+console.log(randomNumberSet);
+
  const goButton = document.getElementById("go-btn");
 const parentDiv = document.getElementById("resultDiv");
 const childDiv = document.createElement("p");
@@ -19,7 +20,8 @@ const childDiv = document.createElement("p");
       const findMin = Math.min(...numArray);
         console.log(findMax);
         console.log(findMin);
-    //console.log(numArray);
+    console.log(numArray);
+    
     if (Number.isNaN(findMax)) {
         childDiv.innerHTML = "";
         childDiv.innerHTML = `Oops, try it using only numbers instead!`;
