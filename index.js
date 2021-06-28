@@ -9,15 +9,15 @@ console.log(randomNumberSet);
 // const childDiv = document.createElement("p");
 
 
-// //create a way to find the maximum and minimum numbers in any number set.
+// create a way to find the maximum and minimum numbers in any number set.
 // //randomNumberSet = [4, 8, 9, 2, -10];
-// let numArray = [];
+ let numArray = [];
 
-// function findMinMax(randomNumberSet) {
-//     numArray = [...randomNumberSet];
+ function findMinMax(randomNumberSet) {
+     numArray = [...randomNumberSet];
 //     const findMax = Math.max(...numArray);
 //     const findMin = Math.min(...numArray);
-//     console.log(findMax, findMin);
+     console.log(randomNumberSet);
 //     if (Number.isNaN(findMax)) {
 //         childDiv.innerHTML = "";
 //         childDiv.innerHTML = `Oops, try it using only numbers instead!`;
@@ -27,7 +27,7 @@ console.log(randomNumberSet);
 //         childDiv.innerHTML = `The Largest Number: ${findMax}, The Smallest Number: ${findMin}`;
 //         parentDiv.append(childDiv);
 //     }
-// }
+ }
 
 // //console.log(findMinMax(randomNumberSet.value));
 
