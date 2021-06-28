@@ -14,14 +14,14 @@ const childDiv = document.createElement("p");
 
  function findMinMax(randomNumberSet) {
     randomNumberSet = document.querySelectorAll("randomNumbers");
-    const newArray = Array.from(randomNumberSet);
-    numArray = [...newArray];
+    //const newArray = Array.from(randomNumberSet);
+    numArray = [...randomNumberSet];
       const findMax = Math.max(...numArray);
       const findMin = Math.min(...numArray);
         console.log(findMax);
         console.log(findMin);
     console.log(numArray);
-    
+
     if (Number.isNaN(findMax)) {
         childDiv.innerHTML = "";
         childDiv.innerHTML = `Oops, try it using only numbers instead!`;
