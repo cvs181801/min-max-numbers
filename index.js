@@ -13,7 +13,7 @@ console.log(randomNumberSet);
  let numArray = [];
 
  function findMinMax(randomNumberSet) {
-     const newArray = Array.from(randomNumberSet)
+     const newArray = Array.from(randomNumberSet);
      numArray = [...newArray];
 //     const findMax = Math.max(...numArray);
 //     const findMin = Math.min(...numArray);
