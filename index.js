@@ -33,7 +33,7 @@ const childDiv = document.createElement("p");
 
  goButton.addEventListener('click', function(e) {
      e.preventDefault();
-     console.log("it worked!!!");
-     //return findMinMax(randomNumberSet.value);
+     //console.log("it worked!!!");
+     return findMinMax(randomNumberSet.value);
  } )
 
