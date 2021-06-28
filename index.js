@@ -14,7 +14,7 @@ console.log(randomNumberSet);
  let numArray = [];
 
  function findMinMax(randomNumberSet) {
-     numArray = [...randomNumberSet];
+     numArray.push(randomNumberSet);
 //     const findMax = Math.max(...numArray);
 //     const findMin = Math.min(...numArray);
      console.log(randomNumberSet);
