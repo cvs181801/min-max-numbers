@@ -16,6 +16,8 @@ const childDiv = document.createElement("p");
     const newArray = Array.from(randomNumberSet);
     numArray = [...newArray];
       const findMax = Math.max(...numArray);
+      console.log(findMax);
+      console.log(findMin);
       const findMin = Math.min(...numArray);
      //console.log(numArray);
     if (Number.isNaN(findMax)) {
