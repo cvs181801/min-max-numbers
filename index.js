@@ -31,8 +31,8 @@ console.log(randomNumberSet);
 
 // //console.log(findMinMax(randomNumberSet.value));
 
-// goButton.addEventListener('click', function(e) {
-//     e.preventDefault();
-//     return findMinMax(randomNumberSet.value);
-// } )
+ goButton.addEventListener('click', function(e) {
+     e.preventDefault();
+     return findMinMax(randomNumberSet.value);
+ } )
 
