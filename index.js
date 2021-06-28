@@ -4,7 +4,7 @@
 const randomNumberSet = document.querySelectorAll("randomNumbers");
 
 console.log(randomNumberSet);
-// const goButton = document.getElementById("go-btn");
+ const goButton = document.getElementById("go-btn");
 // const parentDiv = document.getElementById("resultDiv");
 // const childDiv = document.createElement("p");
 
