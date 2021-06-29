@@ -1,7 +1,7 @@
 
 //grab the elements 
 
-let randomNumberSet = document.getElementsByClassName("randomNumbers");
+let randomNumberSet = document.querySelectorAll("#randomNumbers");
 console.log(randomNumberSet);
 
 const goButton = document.getElementById("go-btn");
