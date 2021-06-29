@@ -1,7 +1,7 @@
 
 //grab the elements 
 
-let randomNumberSet = document.querySelectorAll("#randomNumbers").value;
+let randomNumberSet = document.querySelectorAll("#randomNumbers");
 console.log(randomNumberSet);
 
 const goButton = document.getElementById("go-btn");
@@ -37,6 +37,6 @@ const childDiv = document.createElement("p");
  goButton.addEventListener('click', function(e) {
      e.preventDefault();
      //console.log("it worked!!!");
-     return findMinMax(randomNumberSet);
+     return findMinMax(randomNumberSet.value);
  } )
 
