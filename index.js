@@ -1,7 +1,14 @@
 
 //grab the elements 
 
-let randomNumberSet = document.querySelectorAll("#randomNumbers");
+let firstRandomNumber = document.getElementById("randomNumber1");
+let secondRandomNumber = document.getElementById("randomNumber2");
+let thirdRandomNumber = document.getElementById("randomNumber3");
+let fourthRandomNumber = document.getElementById("randomNumber4");
+let fifthRandomNumber = document.getElementById("randomNumber5");
+
+let randomNumberSet = [firstRandomNumber, secondRandomNumber, thirdRandomNumber, fourthRandomNumber, fifthRandomNumber ];
+
 console.log(randomNumberSet);
 
 const goButton = document.getElementById("go-btn");
@@ -13,7 +20,7 @@ const childDiv = document.createElement("p");
  let newArray = [];
 
  function findMinMax(randomNumberSet) {
-    randomNumberSet = document.querySelectorAll("randomNumbers");
+    //randomNumberSet = document.querySelectorAll("#randomNumbers");
     //newArray = Array.from(randomNumberSet);
     newArray = [...randomNumberSet];
       const findMax = Math.max(...newArray);
