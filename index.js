@@ -7,9 +7,9 @@ let thirdRandomNumber = document.getElementById("randomNumber3");
 let fourthRandomNumber = document.getElementById("randomNumber4");
 let fifthRandomNumber = document.getElementById("randomNumber5");
 
-let randomNumberSet = [firstRandomNumber, secondRandomNumber, thirdRandomNumber, fourthRandomNumber, fifthRandomNumber ];
+let randomNumberSet = [firstRandomNumber.value, secondRandomNumber.value, thirdRandomNumber.value, fourthRandomNumber.value, fifthRandomNumber.value ];
 
-console.log(randomNumberSet.value);
+console.log(randomNumberSet);
 
 const goButton = document.getElementById("go-btn");
 const parentDiv = document.getElementById("resultDiv");
@@ -44,6 +44,6 @@ const childDiv = document.createElement("p");
  goButton.addEventListener('click', function(e) {
      e.preventDefault();
      //console.log("it worked!!!");
-     return findMinMax(randomNumberSet.value);
+     return findMinMax(randomNumberSet);
  } )
 
