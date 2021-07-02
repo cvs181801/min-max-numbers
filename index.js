@@ -9,7 +9,7 @@ let fifthRandomNumber = document.getElementById("randomNumber5");
 
 let randomNumberSet = [firstRandomNumber, secondRandomNumber, thirdRandomNumber, fourthRandomNumber, fifthRandomNumber ];
 
-console.log(randomNumberSet);
+console.log(randomNumberSet.value);
 
 const goButton = document.getElementById("go-btn");
 const parentDiv = document.getElementById("resultDiv");
