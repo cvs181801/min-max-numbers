@@ -20,13 +20,13 @@ const childDiv = document.createElement("p");
 
 //create a way to find the maximum and minimum numbers in any number set.
 
- let newArray = [];
+ //let newArray = [];
 
  function findMinMax(randomNumberSet) {
     
-    newArray = [...randomNumberSet];
-      const findMax = Math.max(...newArray);
-      const findMin = Math.min(...newArray);
+    //newArray = [...randomNumberSet];
+      const findMax = Math.max(...randomNumberSet); //instead of newArray
+      const findMin = Math.min(...randomNumberSet);
 
     if (Number.isNaN(findMax)) {
         childDiv.innerHTML = "";
