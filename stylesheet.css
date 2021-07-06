@@ -15,17 +15,18 @@ body {
 }
 
 h1 {
+    color: black;
     font-size: 3rem;
     font-weight: 700;
     text-shadow:
     0 0 7px #fff,
     0 0 10px #fff,
     0 0 21px #fff,
-     0 0 42px #0fa,
+    0 0 42px #0fa,
     0 0 82px #0fa,
-    /* 0 0 92px #0fa,
+    0 0 92px #0fa,
     0 0 102px #0fa,
-    0 0 151px #0fa; */
+    0 0 151px #0fa; 
 }
 
 h2 {
@@ -58,7 +59,7 @@ input:focus {
     border-radius: 5px;
     width: 3em;
     height: 3em;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     transition: transform 250ms;
 }
 
