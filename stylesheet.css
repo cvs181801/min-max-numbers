@@ -34,7 +34,7 @@ h2 {
 }
 
 input {
-    flex-direction: row;
+    text-align: center;
     border-radius: 7px;
     width: 20%;
     height: 1.5em;
@@ -56,9 +56,9 @@ input:focus {
     color: black;
     font-family: var(--ff-accent);
     border-radius: 5px;
-    width: 5em;
-    height: 5em;
-    font-size: 1.5rem;
+    width: 3em;
+    height: 3em;
+    font-size: 1.1rem;
     transition: transform 250ms;
 }
 
