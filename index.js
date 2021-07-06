@@ -1,7 +1,7 @@
 
 //grab the elements 
 
-let randomNumberSet = document.getElementByClassName("randomNumbers");
+let randomNumberSet = document.getElementsByClassName("randomNumbers");
 
 
 console.log(randomNumberSet);
