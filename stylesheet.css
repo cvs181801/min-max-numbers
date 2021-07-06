@@ -1,0 +1,25 @@
+:root {
+    background-color: black;
+    color: rgb(27, 240, 27);
+    --ff-accent: 'Libre Barcode 128 Text', cursive;
+    --ff-main: 'Vollkorn SC', serif;
+}
+
+body {
+    font-family: var(--ff-main);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+#go-btn {
+    background-color:rgb(27, 240, 27);
+    color: black;
+}
