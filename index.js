@@ -42,5 +42,5 @@ console.log(randomNumberSet);
 //      return findMinMax(randomNumberSet.value);
 //  } )
 
-console.log(randomNumberSet.value);
-console.log(parseInt(randomNumberSet.value));
+console.log(randomNumberSet.values);
+console.log(parseInt(randomNumberSet.values));
