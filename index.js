@@ -43,4 +43,4 @@ console.log(randomNumberSet);
 //  } )
 
 console.log(randomNumberSet.value);
-console.log(parseInt(8));
+console.log(parseInt(randomNumberSet.value));
