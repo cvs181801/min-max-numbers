@@ -44,7 +44,7 @@ const childDiv = document.createElement("p");
  goButton.addEventListener('click', function(e) {
      e.preventDefault();
      console.log("it worked!!!");
-     return findMinMax(parseInt(randomNumberSet1.value), parseInt(randomNumberSet2.value), parseInt(randomNumberSet3.value), parseInt(randomNumberSet4.value), parseInt(randomNumberSet5.value));
+     return findMinMax([parseInt(randomNumberSet1.value), parseInt(randomNumberSet2.value), parseInt(randomNumberSet3.value), parseInt(randomNumberSet4.value), parseInt(randomNumberSet5.value)]);
  } )
 
 
