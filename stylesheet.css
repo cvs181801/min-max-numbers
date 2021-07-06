@@ -42,10 +42,11 @@ form {
 
 input {
     text-align: center;
+    align-content: center;
     border-radius: 7px;
     width: 20%;
     height: 1.5em;
-    /*margin: 1em 1em 1em 1em;*/
+    margin: 1em 1em 1em 1em;
     text-align: center;
     border: 1px solid lightgrey;
     font-family: inherit;
