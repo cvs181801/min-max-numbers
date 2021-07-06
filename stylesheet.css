@@ -21,9 +21,9 @@ h1 {
     0 0 7px #fff,
     0 0 10px #fff,
     0 0 21px #fff,
-    /* 0 0 42px #0fa,
+     0 0 42px #0fa,
     0 0 82px #0fa,
-    0 0 92px #0fa,
+    /* 0 0 92px #0fa,
     0 0 102px #0fa,
     0 0 151px #0fa; */
 }
@@ -34,14 +34,16 @@ h2 {
 }
 
 input {
+    flex-direction: row;
     border-radius: 7px;
     width: 20%;
     height: 1.5em;
-    margin-bottom: 1em;
+    margin: 1em 1em 1em 1em;
     text-align: center;
     border: 1px solid lightgrey;
     font-family: inherit;
     transition: transform 250ms;
+
 }
 
 input:hover,
@@ -57,6 +59,7 @@ input:focus {
     width: 5em;
     height: 5em;
     font-size: 1.5rem;
+    transition: transform 250ms;
 }
 
 #go-btn:hover,
