@@ -21,11 +21,11 @@ h1 {
     0 0 7px #fff,
     0 0 10px #fff,
     0 0 21px #fff,
-    0 0 42px #0fa,
+    /* 0 0 42px #0fa,
     0 0 82px #0fa,
     0 0 92px #0fa,
     0 0 102px #0fa,
-    0 0 151px #0fa; 
+    0 0 151px #0fa; */
 }
 
 h2 {
@@ -35,7 +35,7 @@ h2 {
 
 input {
     border-radius: 7px;
-    width: 100%;
+    width: 20%;
     height: 1.5em;
     margin-bottom: 1em;
     text-align: center;
@@ -44,6 +44,7 @@ input {
     transition: transform 250ms;
 }
 
+input:hover,
 input:focus {
     transform: scale(1.1);
 }
@@ -56,6 +57,13 @@ input:focus {
     width: 5em;
     height: 5em;
     font-size: 1.5rem;
+}
+
+#go-btn:hover,
+#go-btn:focus {
+    font-size: 2rem;
+    background-color: white;
+    transform: scale(1.1);
 }
 
 p {
