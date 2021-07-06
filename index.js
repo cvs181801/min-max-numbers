@@ -11,6 +11,9 @@ console.log(randomNumberSet1, randomNumberSet2, randomNumberSet3, randomNumberSe
 
 console.log(randomNumberSet1.value, randomNumberSet2.value, randomNumberSet3.value, randomNumberSet4.value, randomNumberSet5.value);
 
+console.log(parseInt(randomNumberSet1.value), parseInt(randomNumberSet2.value), parseInt(randomNumberSet3.value), parseInt(randomNumberSet4.value), parseInt(randomNumberSet5.value));
+
+
 // const goButton = document.getElementById("go-btn");
 // const parentDiv = document.getElementById("resultDiv");
 // const childDiv = document.createElement("p");
@@ -47,7 +50,4 @@ console.log(randomNumberSet1.value, randomNumberSet2.value, randomNumberSet3.val
 //      return findMinMax(randomNumberSet.value);
 //  } )
 
-
-console.log(parseInt(randomNumberSet.value));
-console.log(parseInt(randomNumberSet1.value), parseInt(randomNumberSet2.value), parseInt(randomNumberSet3.value), parseInt(randomNumberSet4.value), parseInt(randomNumberSet5.value));
 
