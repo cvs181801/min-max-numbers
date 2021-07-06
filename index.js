@@ -30,7 +30,7 @@ const childDiv = document.createElement("p");
 
     if (Number.isNaN(findMax)) {
         childDiv.innerHTML = "";
-        childDiv.innerHTML = `Oops, try it using only numbers instead!`;
+        childDiv.innerHTML = `Oops, try it using only numbers instead`;
         parentDiv.append(childDiv);
     } else {
         childDiv.innerHTML = "";
