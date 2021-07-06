@@ -34,8 +34,14 @@ h2 {
     font-size: 3em;
 }
 
-input {
+form {
+    flex-direction: column;
     align-content: center;
+    margin: 0 auto;
+}
+
+input {
+    text-align: center;
     border-radius: 7px;
     width: 20%;
     height: 1.5em;
