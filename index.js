@@ -1,10 +1,10 @@
 
 //grab the elements 
 
-let randomNumberSet = document.getElementsByClassName("randomNumbers");
-let randomNumber1 = document.getElementById("randomNumbers1");
+let randomNumberSet = document.querySelectorAll("#randomNumbers");
+
 console.log(randomNumberSet);
-console.log("random number 1 = " + randomNumber1);
+
 
 // const goButton = document.getElementById("go-btn");
 // const parentDiv = document.getElementById("resultDiv");
@@ -42,5 +42,5 @@ console.log("random number 1 = " + randomNumber1);
 //      return findMinMax(randomNumberSet.value);
 //  } )
 
-console.log(randomNumber1.value);
-console.log(parseInt(randomNumber1.value));
+console.log(randomNumberSet.value);
+console.log(parseInt(randomNumberSet.value));
